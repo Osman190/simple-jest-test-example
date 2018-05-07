@@ -14,7 +14,5 @@ function versionCompare(first, second) {
     }
 }
 versionCompare('1.1.1', '1.1.1');
-versionCompare('1.1.1', '1.0.1');
-versionCompare('1.1.0', '1.1.1');
 
 module.exports = versionCompare;
